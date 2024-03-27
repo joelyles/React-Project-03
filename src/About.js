@@ -1,4 +1,4 @@
-const About = () => {
+const About = ({posts}) => {
   return (
     <main>
       <h1>About</h1>
