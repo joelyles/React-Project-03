@@ -4,9 +4,7 @@ import Footer from './Footer';
 import { Outlet } from 'react-router-dom';
 import { useState } from 'react';
 
-const Layout = () => {
-  const [ search, setSearch ] = useState('');
-
+const Layout = ({ search, setSearch }) => {
   return (
     <div className="App">
         <Header title="React Blog"/>

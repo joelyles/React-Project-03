@@ -1,7 +1,8 @@
 const Footer = () => {
+  const today = new Date();
   return (
     <footer>
-      <h1>Footer</h1>
+      <p>created using Dave Gray react course {today.getFullYear()}</p>
     </footer>
   )
 }
