@@ -3,7 +3,7 @@ const NewPost = ({ handleSubmit, postTitle, setPostTitle, postBody, setPostBody 
     <main className="NewPost">
       <h2>NewPost</h2>
       <form className="newPostForm" onSubmit={handleSubmit}>
-        <lable htmlFor="postTitle">Title:</lable>
+        <label htmlFor="postTitle">Title:</label>
         <input 
           type="text" 
           id="postTitle" 
